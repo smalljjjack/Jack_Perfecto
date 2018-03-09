@@ -1,0 +1,511 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.cigna.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.cigna.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1449
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitSeeToSeeText",
+      "args": [
+        "[15, YOU SMILE]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[learnMoreGlobal]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 344 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.92 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 1949
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 297 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 807 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 808
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 297 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 712 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 712
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 297 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 628 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 628
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 297 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.01 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 1009
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 297 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 701 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 701
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 297 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 613 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 614
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 282 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 665 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 666
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 296 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 606 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}",
+          "subLogs": [],
+          "duration": 606
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 15 seconds waiting for presence of element located by: By.xpath: //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": 207213806
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait \"15\" seconds to see the text \"International\"",
+      "args": [
+        "[15, International]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"individualLearnMore\"",
+      "args": [
+        "[individualLearnMore]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait \"15\" seconds to see the text \"Quote\"",
+      "args": [
+        "[15, Quote]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"getAQuote\"",
+      "args": [
+        "[getAQuote]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"5\" seconds",
+      "args": [
+        "[5]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"John\" to \"FNameInput\"",
+      "args": [
+        "[John, FNameInput]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"Jobs\" to \"LNameInput\"",
+      "args": [
+        "[Jobs, LNameInput]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"test@email.com\" to \"EmailInput\"",
+      "args": [
+        "[test@email.com, EmailInput]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"daySelector\"",
+      "args": [
+        "[daySelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"monthSelector\"",
+      "args": [
+        "[monthSelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"yearSelector\"",
+      "args": [
+        "[yearSelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"codeSelector\"",
+      "args": [
+        "[codeSelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"8888888888\" to \"phoneNumInput\"",
+      "args": [
+        "[8888888888, phoneNumInput]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"nationSelector\"",
+      "args": [
+        "[nationSelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"livingSelector\"",
+      "args": [
+        "[livingSelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"currencySelector\"",
+      "args": [
+        "[currencySelector]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on \"infoCheckBox\"",
+      "args": [
+        "[infoCheckBox]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I take a screenshot",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"infoSubmit\"",
+      "args": [
+        "[infoSubmit]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"15\" seconds",
+      "args": [
+        "[15]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I take a screenshot",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"https://www.cigna.com/\"",
+      "type": "TestStepPass",
+      "duration": 1451,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait \"15\" seconds to see the text \"YOU SMILE\"",
+      "type": "TestStepFail",
+      "duration": 23827,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Text: \"YOU SMILE\" should be present after 15seconds\nExpected: \"true\"\n     Actual: was \"false\"",
+          "type": "Fail",
+          "screenshot": "img/FindDocInCigna_4xy1sk9qpvv224968.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I click on \"learnMoreGlobal\"",
+      "type": "TestStepFail",
+      "screenshot": "img/FindDocInCigna_1nggzsklru19224971.png",
+      "duration": 15745,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 15 seconds waiting for presence of element located by: By.xpath: //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I wait \"15\" seconds to see the text \"International\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"individualLearnMore\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait \"15\" seconds to see the text \"Quote\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"getAQuote\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"5\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"John\" to \"FNameInput\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"Jobs\" to \"LNameInput\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"test@email.com\" to \"EmailInput\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"daySelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"monthSelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"yearSelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"codeSelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"8888888888\" to \"phoneNumInput\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"nationSelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"livingSelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"currencySelector\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"infoCheckBox\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I take a screenshot",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"infoSubmit\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"15\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I take a screenshot",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for presence of element located by: By.xpath: //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver\n\tat .Then I click on \"learnMoreGlobal\"(src/main/resources/scenarios/cignatest.feature:8)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)\n\tat com.quantum.steps.PerfectoApplicationSteps.iClick(PerfectoApplicationSteps.java:242)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 296 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 606 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, deviceName=1_A646D353-2103-4565-97BC-70281440EA1E, platform=ANY, password=, deviceSessionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, platformVersion=8.1, browserVersion=latest, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, takesScreenshot=true, browserName=Internet Explorer, javascriptEnabled=true, platformName=Windows, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, entityType=remote_web_driver, serverConnector=, securityToken=, executionId=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, webdriver.remote.sessionid=cb97dce7-f065-4925-9edd-91d7ffd31eda, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20594&_timestamp[0]=1520625563759, user=, cssSelectorsEnabled=true}]\nSession ID: cb97dce7-f065-4925-9edd-91d7ffd31eda\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:398)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)\n\tat com.qmetry.qaf.automation.step.CommonStep$AjcClosure51.run(CommonStep.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)\n\tat com.quantum.steps.PerfectoApplicationSteps.iClick(PerfectoApplicationSteps.java:242)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\n\tat org.testng.TestRunner.run(TestRunner.java:635)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\t... 4 more\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 296 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'WIN-TNJVQV25AJF', ip: '100.66.135.176', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:12837/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]\nSession ID: bc595bbb-3769-41b0-974b-4951daa8fc80\n*** Element info: {Using=xpath, value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'd054f3f257fa', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'NB-JACKZ-OSX.local', ip: '172.21.31.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_111'\nDriver info: driver.version: EventFiringWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n\tat java.lang.reflect.Method.invoke(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)\n\tat com.sun.proxy.$Proxy4.findElement(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n\tat java.lang.Thread.run(Unknown Source)\n"
+}

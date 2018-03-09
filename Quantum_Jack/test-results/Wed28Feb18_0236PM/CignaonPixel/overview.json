@@ -1,0 +1,70 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.quantum.tests.cignaTests"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "securityToken": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJjNjg5Njg3Yi02NWE4LTRkOGUtYmE2My00YjllMjk0ZTg1MWYiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTE3MzQxOTU2LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2JldGEtcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiI1NjM1MzhmYS0xYWQ3LTRiNGUtOGE2Ny05N2NkZjFhY2VkZTkiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJub25jZSI6ImQyYTBiZGQ1LTM3MDctNDU2My04NmFlLTA0NDhkYWIwYzQ4YSIsInNlc3Npb25fc3RhdGUiOiI4NmZlMzliMy1mYzI1LTQyMWItOTM3NS03MzUyNzk3MDVhODIiLCJjbGllbnRfc2Vzc2lvbiI6IjJmMGQyN2MzLTAwYTgtNDMyYi05ZDg4LTdlZGMxM2I1NDkzZSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJ2aWV3LXByb2ZpbGUiXX19fQ.Va4LssHbiDYx6KpxnAkETFzUI9GeVFd5Vhk76TxaDd2hG98MJIjiekend-uwCf8VGwsOy0L63_E29bZrDmW9uGknE9FlMbSFmT6KO-8jjeMObkSn8wejvE--9NrZva8cfgYfUJp7i1_Awuw3HycENyRG8ndnJ0Im_77a6L7hlkjCND7GU17940D_EUWbQXbiXbROWfMXHnR28qsDRgAVN4HD65JXqRvEbCbJcb1NoeI2YMQo_3sL7gln-MS-g0bVbVSdo8eQPcZT2lIp5l7YD88p2AxfWRI3Surr2UI3gcGni5oCpaC_tTQpgjxSE_XBIlhJtUHCQeTe98Q2X_dquw",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "model": "Pixel",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://beta.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294&_timestamp[0]=1519846579052",
+      "deviceName": "FA7530300822",
+      "platform": "ANY",
+      "password": "",
+      "deviceSessionId": "uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294",
+      "automationName": "Appium",
+      "host": "beta.perfectomobile.com",
+      "singleTestReportUrl": "https://beta.reporting.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294&_timestamp[0]=1519846579052",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "javascriptEnabled": "true",
+      "model": "Pixel",
+      "rotatable": "true",
+      "testGridReportUrl": "https://beta.reporting.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294&_timestamp[0]=1519846579052",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294",
+      "webdriver.remote.sessionid": "f4dee6dc-8385-41ff-b85a-4ae8715b7083",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "reportKey": "uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294",
+      "windTunnelReportUrl": "https://beta.reporting.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_36_19_294&_timestamp[0]=1519846579052",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Sep-2017 07:56:25"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "Pixel",
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.local",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.13.3"
+    }
+  },
+  "startTime": 1519846627999,
+  "endTime": 1519846649163
+}

@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.cigna.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 714
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=30000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@class=\"search-sm-xs\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 3489
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@class=\"search-sm-xs\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 310
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=query, using=id}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 385
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "id: 1",
+        "{\"id\":\"1\",\"value\":[\"insurance\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 363
+    }
+  ],
+  "checkPoints": []
+}

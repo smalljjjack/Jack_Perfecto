@@ -1,0 +1,18 @@
+{
+  "name": "Web Demo Suite",
+  "status": "fail",
+  "tests": [
+    "CignaOnWindowsChrome",
+    "CignaOnIphone",
+    "CignaOnGalaxy",
+    "CignaOnWindowsFireFox",
+    "CignaOnWindowsEdge",
+    "CignaOnWindowsIE"
+  ],
+  "total": 6,
+  "pass": 0,
+  "fail": 3,
+  "skip": 3,
+  "startTime": 1520625561795,
+  "endTime": 1520625982405
+}

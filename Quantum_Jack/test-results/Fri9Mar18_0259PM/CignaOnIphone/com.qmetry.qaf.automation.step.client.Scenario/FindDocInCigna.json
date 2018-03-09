@@ -1,0 +1,737 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.cigna.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.cigna.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 8828
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitSeeToSeeText",
+      "args": [
+        "[15, YOU SMILE]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[learnMoreGlobal]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a, using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 1609
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"1387201104245\"]/div/div/div[1]/div[1]/div/div[3]/a",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 298
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitSeeToSeeText",
+      "args": [
+        "[15, International]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[individualLearnMore]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"map-right-content\"]/div[1]/div/div/div/div[2]/a, using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1404
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"map-right-content\"]/div[1]/div/div/div/div[2]/a",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 367
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitSeeToSeeText",
+      "args": [
+        "[15, Quote]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[getAQuote]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[1]/div/div[2]/div/div/div[2]/a, using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1491
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[1]/div/div[2]/div/div/div[2]/a",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 340
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[John, FNameInput]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"mainMemberFirstName\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1473
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"mainMemberFirstName\"]",
+            "{\"id\":\"3\",\"value\":[\"John\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 346
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[Jobs, LNameInput]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"mainMemberFamilyName\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 309
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"mainMemberFamilyName\"]",
+            "{\"id\":\"4\",\"value\":[\"Jobs\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 393
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[test@email.com, EmailInput]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"mainMemberEmail\"], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 254
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"mainMemberEmail\"]",
+            "{\"id\":\"5\",\"value\":[\"test@email.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 353
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[daySelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"selectedDay\"]/option[6], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 194
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"selectedDay\"]/option[6]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 288
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[monthSelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"selectedMonth\"]/option[5], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 253
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"selectedMonth\"]/option[5]",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 273
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[yearSelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"selectedYear\"]/option[32], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 275
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"selectedYear\"]/option[32]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 347
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[codeSelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"phone-code\"]/option[6], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 190
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"phone-code\"]/option[6]",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 278
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[8888888888, phoneNumInput]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"phone-number\"], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 278
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"phone-number\"]",
+            "{\"id\":\"10\",\"value\":[\"8888888888\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 341
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[nationSelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"mainMemberNationality\"]/option[3], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 212
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"mainMemberNationality\"]/option[3]",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 279
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[livingSelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"mainMemberCountry\"]/option[6], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 263
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"mainMemberCountry\"]/option[6]",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 289
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[currencySelector]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"product\"]/option[4], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 262
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"product\"]/option[4], using=xpath}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 231
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"product\"]/option[4]",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 278
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[infoCheckBox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"mailingListCheckbox\"], using=xpath}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 273
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"mailingListCheckbox\"]",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 293
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I take a screenshot",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"infoSubmit\"",
+      "args": [
+        "[infoSubmit]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"15\" seconds",
+      "args": [
+        "[15]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I take a screenshot",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"https://www.cigna.com/\"",
+      "type": "TestStepPass",
+      "duration": 8829,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait \"15\" seconds to see the text \"YOU SMILE\"",
+      "type": "TestStepPass",
+      "duration": 9680,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Text: \"YOU SMILE\" should be present after 15seconds\nExpected: \"true\"\n     Actual: was \"true\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I click on \"learnMoreGlobal\"",
+      "type": "TestStepPass",
+      "duration": 1910,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait \"15\" seconds to see the text \"International\"",
+      "type": "TestStepPass",
+      "duration": 12908,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Text: \"International\" should be present after 15seconds\nExpected: \"true\"\n     Actual: was \"true\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I click on \"individualLearnMore\"",
+      "type": "TestStepPass",
+      "duration": 1774,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait \"15\" seconds to see the text \"Quote\"",
+      "type": "TestStepPass",
+      "duration": 13744,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Text: \"Quote\" should be present after 15seconds\nExpected: \"true\"\n     Actual: was \"true\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I click on \"getAQuote\"",
+      "type": "TestStepPass",
+      "duration": 1834,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "duration": 5005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"John\" to \"FNameInput\"",
+      "type": "TestStepPass",
+      "duration": 1822,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"Jobs\" to \"LNameInput\"",
+      "type": "TestStepPass",
+      "duration": 704,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"test@email.com\" to \"EmailInput\"",
+      "type": "TestStepPass",
+      "duration": 610,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"daySelector\"",
+      "type": "TestStepPass",
+      "duration": 485,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"monthSelector\"",
+      "type": "TestStepPass",
+      "duration": 530,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"yearSelector\"",
+      "type": "TestStepPass",
+      "duration": 624,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"codeSelector\"",
+      "type": "TestStepPass",
+      "duration": 470,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"8888888888\" to \"phoneNumInput\"",
+      "type": "TestStepPass",
+      "duration": 622,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"nationSelector\"",
+      "type": "TestStepPass",
+      "duration": 493,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"livingSelector\"",
+      "type": "TestStepPass",
+      "duration": 552,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"currencySelector\"",
+      "type": "TestStepPass",
+      "duration": 1066,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"infoCheckBox\"",
+      "type": "TestStepPass",
+      "duration": 568,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I take a screenshot :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"infoSubmit\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"15\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I take a screenshot",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then I take a screenshot@src/main/resources/scenarios/cignatest.feature#26 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\n\tat .Then I take a screenshot(src/main/resources/scenarios/cignatest.feature:26)\n"
+}

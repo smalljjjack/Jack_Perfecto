@@ -1,0 +1,91 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+	<test name="Cigna On WindowsChrome" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
+		<parameter name="driver.capabilities.browserVersion" value="latest"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="@cignatest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+	<test name="Cigna On Iphone" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.model" value="iPhone.*"></parameter>
+		<groups>
+			<run>
+				<include name="@cignatest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+	<test name="Cigna On Galaxy" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.model" value="Galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@cignatest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+	<test name="Cigna On WindowsFireFox" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
+		<parameter name="driver.capabilities.browserVersion" value="latest"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<groups>
+			<run>
+				<include name="@cignatest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+    <test name="Cigna On WindowsEdge" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.browserVersion" value="16"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Edge"></parameter>
+        <groups>
+            <run>
+                <include name="@cignatest" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+	<test name="Cigna On WindowsIE" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
+		<parameter name="driver.capabilities.browserVersion" value="latest"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Internet Explorer"></parameter>
+		<groups>
+			<run>
+				<include name="@cignatest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+
+
+</suite>

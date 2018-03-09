@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@getAQuote",
+          "@cignatest"
+        ],
+        "lineNo": 5,
+        "name": "FindDocInCigna",
+        "referece": "src/main/resources/scenarios/cignatest.feature",
+        "sign": "src.main.resources.scenarios.cignatest.feature.FindDocInCigna()[pri:1005, instance:com.qmetry.qaf.automation.step.client.Scenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1520625562116,
+      "duration": 74587,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

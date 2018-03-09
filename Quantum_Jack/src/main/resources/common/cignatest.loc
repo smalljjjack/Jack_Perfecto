@@ -1,0 +1,49 @@
+<!-- @cignafindplan -- >
+
+find-doc = xpath=//*[@id="1386145328993"]/footer/div[2]/div[2]/div/div[1]/ul/li[10]/a
+employerSchoolPlan = xpath=//*[@id="1509884806396"]/div/div[2]/div/div[2]/div/div[1]/div/div[2]/p/a
+buyIndividualPlan = xpath=//*[@id="1391945907099"]/footer/div[2]/div[2]/div/div[1]/ul/li[2]/a
+viewDentalPlanWeb = xpath=//*[text()="VIEW DENTAL PLANS"]
+viewDentalPlanMobile = xpath=//*[@id="1515328782121"]/div/div/div[2]/a
+viewPlanDetailFrom = xpath=//*[@id="1505643157456"]/div/div/div/div[1]/div[1]/div[1]/p[1]/a
+aboutThisPlan = xpath=//*[@id="1504836544968"]/div/div/div/div[2]/div/div/ul/li[2]/a
+
+
+<!-- @getAQuote -->
+learnMoreGlobal = xpath=//*[@id="1387201104245"]/div/div/div[1]/div[1]/div/div[3]/a
+individualLearnMore = xpath=//*[@id="map-right-content"]/div[1]/div/div/div/div[2]/a
+getAQuote = xpath=/html/body/div[3]/div[1]/div[1]/div/div[2]/div/div/div[2]/a
+FNameInput = xpath=//*[@id="mainMemberFirstName"]
+LNameInput = xpath=//*[@id="mainMemberFamilyName"]
+EmailInput = xpath=//*[@id="mainMemberEmail"]
+daySelector = xpath=//*[@id="selectedDay"]/option[6]
+monthSelector = xpath=//*[@id="selectedMonth"]/option[5]
+yearSelector = xpath=//*[@id="selectedYear"]/option[32]
+codeSelector = xpath=//*[@id="phone-code"]/option[6]
+phoneNumInput = xpath=//*[@id="phone-number"]
+nationSelector = xpath=//*[@id="mainMemberNationality"]/option[3]
+livingSelector = xpath=//*[@id="mainMemberCountry"]/option[6]
+currencySelector = xpath=//*[@id="product"]/option[4]
+infoCheckBox = xpath=//*[@id="mailingListCheckbox"]
+infoSubmit = xpath=//*[@id="ImageSubmit"]
+
+
+
+
+
+<!-- deprecated -->
+learnMoreBaoutDoc = xpath=//*[@id="1434870673699"]/div/div/div/ul/li/div[2]/a
+mainSearchInput = xpath=//*[@id="csng-search-results"]/search-bar/form/cigna-typeahead/div/input
+mainSearchBtn = xpath=//*[@id="csng-search-header"]/search-header-bar/form/button/img
+find-doctor = xpath=//*[@id="1386145328993"]/footer/div[2]/div[2]/div/div[1]/ul/li[10]/a
+userRegistery = xpath=//*[@id="1509884806396"]/div/div[2]/div/div[1]/p[2]/a
+userFnameInput = xpath=//*[@id="fname"]
+userLnameInput = xpath=//*[@id="lname"]
+userMonthSelect = xpath=//*[@id="month"]/option[3]
+userDaySelect = xpath=//*[@id="day"]/option[4]
+userYearSelect = xpath=//*[@id="year"]/option[4]
+userAddressInput = xpath=//*[@id="address"]
+userCityInput = xpath=//*[@id="city"]
+userStateSelect = xpath=//*[@id="state"]/option[9]
+userZipInput = xpath=//*[@id="zip"]
+userRegisteryNext = xpath=//*[@id="form-info"]/div[3]/button

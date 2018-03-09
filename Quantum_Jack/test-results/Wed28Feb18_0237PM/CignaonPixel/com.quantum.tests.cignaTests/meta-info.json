@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "search",
+        "groups": [
+          "@P1",
+          "@Cigna",
+          "@Search"
+        ],
+        "name": "searchCigna",
+        "sign": "cignaTests.searchCigna()[pri:0, instance:com.quantum.tests.cignaTests@8e0379d]"
+      },
+      "dependsOn": [],
+      "startTime": 1519846663923,
+      "duration": 48830,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

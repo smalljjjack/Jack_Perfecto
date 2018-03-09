@@ -1,0 +1,77 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "securityToken": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI3ZTFkY2NmNS1kMTAyLTRiZTAtODg5Mi0yNDdiYmNjOWYwOTgiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTIwMDExNjQ3LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiJmODJmNjVlZC1mZjkyLTQ1OTUtOWI5Mi00NTdmZDc5NjQyZjMiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzZXNzaW9uX3N0YXRlIjoiZTkwNjhlNmMtYTMwNS00OTgzLTkyNzUtODUwYzczNmJjNjhjIiwiY2xpZW50X3Nlc3Npb24iOiI2ZWUwZWEwMi0yZGM1LTQzNzctOTVjNi0yYjUwYzU0YzExMjIiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fX0.MXfQJ3Iud5R-xAGtbZp-f9ydUlJipOvO97IO0uXh1GIjs5Vluq38BNrJ6xy3HxnpLnGLOPWWygILFKlDM-X0j02W7a6sExG-IFAl9fR2t83S09_WJVrC4Y38BD-eJffdHW3WedZlV_K7jczyAJFM-3qbgdTinTr4ckdm-Z03b7JtCfO8FuRNRuewft-cvph-Dm_tXbDvH3ltB7e1Km4s9lLyOEZ3r1V4VzFOKSriU1vYD-_eR2WTILU05csg8FumMEiud_Ly-udAMz_iV3WQmpDSShtW6fFQN-IuPl95euazBxRHEY9O4f3LNkCQleh_gWq60lM4ZEhAiZ4CZa5I8A",
+      "platformVersion": "10",
+      "browserVersion": "16",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "Edge",
+      "javascriptEnabled": true,
+      "platformName": "Windows",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592&_timestamp[0]=1520625563681",
+      "deviceName": "1_97F8A7D1-5381-4AE2-8B37-80AE6C8DE180",
+      "platform": "ANY",
+      "password": "",
+      "deviceSessionId": "jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592",
+      "platformVersion": "10",
+      "browserVersion": "16",
+      "automationName": "Appium",
+      "host": "demo.perfectomobile.com",
+      "singleTestReportUrl": "https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592&_timestamp[0]=1520625563681",
+      "takesScreenshot": "true",
+      "browserName": "Edge",
+      "javascriptEnabled": "true",
+      "platformName": "Windows",
+      "rotatable": "true",
+      "testGridReportUrl": "https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592&_timestamp[0]=1520625563681",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592",
+      "webdriver.remote.sessionid": "46daa7e1-994b-4ab6-85b1-bb2763c932e7",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "reportKey": "jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592",
+      "windTunnelReportUrl": "https://demo.reporting.perfectomobile.com?externalId[0]=jackz@perfectomobile.com_RemoteWebDriver_18-03-09_19_59_23_20592&_timestamp[0]=1520625563681",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Sep-2017 07:56:25"
+    },
+    "run-parameters": {
+      "driver.capabilities.platformVersion": "10",
+      "resources": "src/main/resources/common",
+      "baseurl": "",
+      "driver.capabilities.browserVersion": "16",
+      "driver.capabilities.platformName": "Windows",
+      "driver.capabilities.browserName": "Edge"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "x86_64",
+      "host": "NB-JACKZ-OSX.local",
+      "os.name": "Mac OS X",
+      "user.name": "jackz",
+      "os.version": "10.13.4"
+    }
+  },
+  "startTime": 1520625969983,
+  "endTime": 1520625982397
+}

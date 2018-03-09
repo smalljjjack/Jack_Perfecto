@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "search",
+        "groups": [
+          "@P1",
+          "@Cigna",
+          "@Search"
+        ],
+        "name": "searchCigna",
+        "Perfecto-report": "<a href=\"https://beta.reporting.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-02-28_19_45_27_304&_timestamp[0]=1519847127251\" target=\"_blank\">view</a>",
+        "sign": "cignaTests.searchCigna()[pri:0, instance:com.quantum.tests.cignaTests@2145433b]"
+      },
+      "dependsOn": [],
+      "startTime": 1519847126357,
+      "duration": 24071,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
